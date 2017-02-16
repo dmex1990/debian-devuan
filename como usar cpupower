@@ -1,0 +1,7 @@
+para asignar gobvern.
+/etc/default/cpupower
+/etc/conf.d/cpupower
+
+
+sudo rc-update add cpupower
+sudo rc-service cpupower start
