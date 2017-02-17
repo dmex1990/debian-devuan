@@ -1,0 +1,14 @@
+deb http://auto.mirror.devuan.org/merged jessie main
+deb-src http://auto.mirror.devuan.org/merged jessie main
+ 
+deb http://packages.devuan.org/merged jessie-security main
+deb-src http://packages.devuan.org/merged jessie-security main
+
+deb http://auto.mirror.devuan.org/merged jessie-updates main
+deb-src http://auto.mirror.devuan.org/merged jessie-updates main
+
+deb http://auto.mirror.devuan.org/merged jessie-proposed-updates main
+deb-src http://auto.mirror.devuan.org/merged jessie-proposed-updates main
+
+deb http://auto.mirror.devuan.org/merged jessie-backports main
+deb-src http://auto.mirror.devuan.org/merged jessie-backports main
