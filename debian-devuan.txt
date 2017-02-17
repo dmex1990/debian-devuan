@@ -1,0 +1,27 @@
+Install OpenRC from Experimental
+
+After adding the Experimental Debian repository, simply do:
+
+$apt-get install openrc
+
+eliminar systemd
+$apt-get remove --purge --auto-remove systemd
+
+
+##
+En la configuración de APT, agregar el siguiente archivo:
+
+root@debian8:~# nano /etc/apt/preferences.d/systemd
+
+Con el siguiente contenido:
+
+Package: systemd
+Pin: release *
+Pin-Priority: -1
+
+Package: *systemd*
+Pin: release *
+Pin-Priority: -1
+##
+
+$for file in /etc/rc0.d/K*; do s=`basename $(readlink "$file")` ; /etc/init.d/$s stop; done
