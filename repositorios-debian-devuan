@@ -11,6 +11,16 @@ deb http://security.debian.org/ jessie/updates main contrib non-free
 deb http://ftp.mx.debian.org/debian/ jessie-proposed-updates main contrib non-free 
 deb-src http://security.debian.org/ jessie/updates main contrib non-free 
 deb-src http://ftp.mx.debian.org/debian/ jessie-proposed-updates main contrib non-free 
+#------------------------------------------------------------------------------#
+#                   OFFICIAL DEVUAN REPOS                    
+#------------------------------------------------------------------------------#
+#Devuan Official
+deb http://auto.mirror.devuan.org/merged jessie main
+deb http://auto.mirror.devuan.org/merged jessie-updates main
+deb http://auto.mirror.devuan.org/merged jessie-security main
+
+#Devuan Ascii (Testing)
+
 
 #------------------------------------------------------------------------------#
 #                      UNOFFICIAL  REPOS                       #
@@ -35,6 +45,7 @@ deb [arch=amd64,i386] http://mirror.netcologne.de/mariadb/repo/10.0/debian jessi
 deb [arch=amd64,i386] http://mirror.netcologne.de/mariadb/repo/10.1/debian jessie main
 
 #### MEGA Sync Client - https://mega.co.nz/
+##wget -O - https://mega.co.nz/linux/MEGAsync/Debian_8.0/Release.key | apt-key add -
 deb http://mega.nz/linux/MEGAsync/Debian_8.0/ ./
 
 #### Mono for Debian - https://pkg-mono.alioth.debian.org/
@@ -42,11 +53,11 @@ deb http://debian.meebey.net/pkg-mono ./
 
 #### Opera .deb Repository - http://deb.opera.com/
 ## Run this command: wget -O - http://deb.opera.com/archive.key | apt-key add - 
-deb http://deb.opera.com/opera/ sid non-free
+deb http://deb.opera.com/opera/ stable non-free
 
 #### Opera .deb Repository (Beta Releases) - http://deb.opera.com/
 ## Run this command: wget -O - http://deb.opera.com/archive.key | apt-key add - 
-deb http://deb.opera.com/opera-beta/ sid non-free
+deb http://deb.opera.com/opera-beta/ stables non-free
 
 #### PlayOnLinux - https://www.playonlinux.com/en
 ## Run this command: wget -q "http://deb.playonlinux.com/public.gpg" -O- | apt-key add -
@@ -55,6 +66,10 @@ deb http://deb.playonlinux.com/ wheezy main
 #### Wine - https://www.winehq.org/
 ## Run this command: wget https://dl.winehq.org/wine-builds/Release.key && apt-key add Release.key
 deb https://dl.winehq.org/wine-builds/debian/ jessie main
+
+##palemoon
+##wget -q http://kovacsoltvideo.hu/moonchildproductions/public.gpg -O- | sudo apt-key add -
+deb http://kovacsoltvideo.hu/moonchildproductions/ ./
 
 
 #GPG Keys
@@ -65,3 +80,7 @@ deb https://dl.winehq.org/wine-builds/debian/ jessie main
 #wget -O - http://deb.opera.com/archive.key | apt-key add - 
 #wget -q "http://deb.playonlinux.com/public.gpg" -O- | apt-key add -
 #wget https://dl.winehq.org/wine-builds/Release.key && apt-key add Release.key
+
+
+
+
