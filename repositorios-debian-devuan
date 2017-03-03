@@ -20,8 +20,9 @@ deb http://auto.mirror.devuan.org/merged jessie-updates main
 deb http://auto.mirror.devuan.org/merged jessie-security main
 
 #Devuan Ascii (Testing)
-
-
+deb http://auto.mirror.devuan.org/merged ascii main non-free contrib
+deb http://auto.mirror.devuan.org/merged ascii-updates main non-free contrib
+deb http://auto.mirror.devuan.org/merged ascii-security main non-free contrib
 #------------------------------------------------------------------------------#
 #                      UNOFFICIAL  REPOS                       #
 #------------------------------------------------------------------------------#
