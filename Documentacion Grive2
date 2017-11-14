@@ -1,0 +1,14 @@
+http://yourcmc.ru/wiki/Grive2
+Bienvenidos a la página de inicio del proyecto Grive2!
+
+El propósito de este proyecto es proporcionar una independiente de la implementación de código abierto de 
+Google Drive cliente para GNU/Linux. Utiliza Google Drive API de REST para hablar a servicio Google Drive. 
+El código está escrito en C++estándar.
+
+El propósito de este proyecto es proporcionar una implementación independiente del cliente Google Drive de 
+código abierto para GNU/Linux. Utiliza Google Drive API de REST para comunicarse a servicio Google Drive. 
+El código está escrito en C++ estándar.
+
+Grive2 es el tenedor de original del abandonado "Grive" (https://github.com/Grive/grive) con el soporte añadido para 
+la nueva Unidad de la API de REST (la versión original fue para uso de la Lista de Documentos "API", que ahora es apagar) 
+y algunas nuevas características, por ejemplo, sincronización parcial de carpetas.
